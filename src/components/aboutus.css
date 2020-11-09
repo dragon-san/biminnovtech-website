@@ -1,0 +1,19 @@
+.aboutus-container img:nth-child(1) {
+    display: block;
+    
+   margin-top:50px;
+   margin-left: 535px;
+height: 150;
+   padding: 5px;
+   width: 40%;
+ }
+
+.aboutus-container img:nth-child(2){
+   display: block;
+   
+  margin-top:70px;
+  margin-left: 450px;
+height: 50;
+  padding: 5px;
+  width: 50%;
+}

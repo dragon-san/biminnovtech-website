@@ -26,7 +26,7 @@ class landing extends Component  {
           buttonSize='btn--large'
         >
           
-        <h1>Commencer</h1>
+        Commencer
           
         </Button>
         
