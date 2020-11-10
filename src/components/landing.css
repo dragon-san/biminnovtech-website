@@ -6,6 +6,15 @@ video {
     z-index: -1;
   }
   
+  
+.wholepage{
+
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+}  
+  
   .landing-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     height: 100vh;
@@ -18,6 +27,7 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
   }
+
 
 
   .logo-img{
@@ -82,36 +92,95 @@ video {
     margin-top: 50px;
     margin-left: 50px;
     
-    
+}
 
+
+/* For 15inch screen*/
+  
+ @media screen and (max-width: 960px) {
+
+.landing-container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 
 
 
+.logo-img{
+  height: 320px;
+  width: 280px;
+  margin-top: -250px;
+  margin-left: 250px;
+  padding-top: 12em;
+}
+
+
+.landing-container > p1 {
+margin-top: 40px;
+margin-left: 240px;
+color: white;
+font-size: 95px;
+font-family: 'Raleway', sans-serif;
+font-weight: 100;
+
+}
+
+.landing-container > p {
+margin-top: -112px;
+margin-left: 615px;
+color:yellow;
+font-size: 95px;
+font-family: 'Raleway', sans-serif;
+font-weight: 100;
+
+}
+
+.landing-container > p2 {
+margin-top: -10px;
+margin-left: 240px;
+color: white;
+font-size: 95px;
+font-family: 'Raleway', sans-serif;
+font-weight: 100;
+
+}
+
+.landing-container > p4 {
+margin-top: -25px;
+margin-left: 240px;
+color:yellow;
+font-size: 95px;
+font-family: 'Raleway', sans-serif;
+font-weight: 100;
+
+}
+
+.landing-btns {
+  margin-top: 0px;
+  margin-left: 250px;
+  width: 290px;
+  background-color:transparent
+
+}
+
+.intro1{
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
   
-@media screen and (max-width: 960px) {
-    .landing-container > p1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-
-    .landing-container > p {
-        font-size: 70px;
-        margin-top: -150px;
-      }
-      .landing-container > p2 {
-        font-size: 70px;
-        margin-top: -150px;
-      }
-      .landing-container > p4 {
-        font-size: 70px;
-        margin-top: -150px;
-      }
-
-
-
 
   }
+
+}
+
+
   
   @media screen and (max-width: 768px) {
     .landing-container > p1 {
@@ -140,4 +209,22 @@ video {
       width: 100%;
     }
   }
-  
+
+   
+
+
+
+
+   /* For Mobile */
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
+}

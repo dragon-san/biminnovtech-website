@@ -16,6 +16,7 @@ render(){
 
     
     return(
+      <div id='wholepage'>
 <div className='home-page'>
 <Navbar/>
 
@@ -45,6 +46,7 @@ render(){
 <img src='12.png' height='900' width='70%' />
 </div>  */}
   </div>      
+  </div>
     )
 }
 

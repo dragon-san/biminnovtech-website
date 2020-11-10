@@ -8,6 +8,7 @@ class landing extends Component  {
 
   render() {
   return (
+    <div id="wholepage">
     <div className='landing-container'>
       <video src='/videos/slider.mp4' autoPlay loop muted />
       
@@ -31,6 +32,7 @@ class landing extends Component  {
         </Button>
         
      </div>
+    </div>
     </div>
   );
 
