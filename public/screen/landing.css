@@ -1,0 +1,211 @@
+video {
+    object-fit: fill;
+    width: 100%;
+    height: 110%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  
+ /* .wholepage{
+
+min-width: 480px;
+  max-width: 1920px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+}   */
+  
+ .landing-container {
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+
+
+  .logo-img{
+    height: 300px;
+    width: 250px;
+    margin-top: -230px;
+    margin-left: 250px;
+    padding-top: 12em;
+  }
+
+
+.landing-container > p1 {
+  margin-top: 20px;
+  margin-left: 240px;
+  color: white;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  
+}
+
+.landing-container > p {
+  margin-top: -81px;
+  margin-left: 520px;
+  color:yellow;
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+
+}
+
+.landing-container > p2 {
+  margin-top: 0px;
+  margin-left: 240px;
+  color: white;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  
+}
+
+.landing-container > p4 {
+  margin-top: -20px;
+  margin-left: 240px;
+  color:yellow;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+
+}
+
+.landing-btns {
+    margin-top: 10px;
+    margin-left: 240px;
+    width: 290px;
+    background-color:transparent
+  
+  }
+
+.intro1{
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+} 
+ 
+
+/* For 15inch screen*/
+/*   
+ @media screen and (max-width: 960px) and (min-width: 600px) {
+
+  .wholepage{
+
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }  
+    
+    .landing-container {
+      
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+      object-fit: contain;
+    }
+  
+  
+  
+    .logo-img{
+      height: 320px;
+      width: 280px;
+      margin-top: -250px;
+      margin-left: 250px;
+      padding-top: 12em;
+    }
+  
+  
+  .landing-container > p1 {
+    margin-top: 40px;
+    margin-left: 240px;
+    color: white;
+    font-size: 95px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    
+  }
+  
+  .landing-container > p {
+    margin-top: -112px;
+    margin-left: 615px;
+    color:yellow;
+    font-size: 95px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+  
+  }
+  
+  .landing-container > p2 {
+    margin-top: -10px;
+    margin-left: 240px;
+    color: white;
+    font-size: 95px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    
+  }
+  
+  .landing-container > p4 {
+    margin-top: -25px;
+    margin-left: 240px;
+    color:yellow;
+    font-size: 95px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+  
+  }
+  
+  .landing-btns {
+      margin-top: 0px;
+      margin-left: 250px;
+      width: 290px;
+      background-color:transparent
+    
+    }
+  
+  .intro1{
+      height: 100px;
+      margin-top: 50px;
+      margin-left: 50px;
+      
+  }
+  
+
+} */
+
+
+  
+   
+
+
+
+
+   /* For Mobile */
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
+}

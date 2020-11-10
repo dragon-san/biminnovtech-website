@@ -1,0 +1,98 @@
+.NavbarItems{
+    background-color: aliceblue;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.navbar-logo{
+    color:white;
+    justify-self:center;
+    margin-left: 10px;
+    position:absolute;
+    top:30;
+    right:70;
+
+    cursor: default;;
+}
+
+
+
+.nav-menu{
+    background: none;
+   display: none;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 11px;
+    list-style: none;
+    text-align: left;
+    width: 80vw;
+    justify-content: end;
+    margin-right: -0.5rem ;
+font-size: xx-large;
+font-weight: lighter;
+   
+
+
+
+}
+
+
+.nav-menu.active{
+
+    /* background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);  */
+    background: linear-gradient(to right , #2d2f83d5, #00b5ecda); 
+    display:flex;
+    flex-direction: column;
+    width: 16%;
+    height: 112%;
+    position: absolute;
+    top:110px;
+    right:0;
+    margin-right: 0rem ;
+   text-align: left;
+    opacity: 1;
+    transition: all 0.5s ease;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+  
+    
+    
+}
+
+.nav-links{
+
+    color: white;
+   
+    padding: 0.5;
+text-decoration: whitesmoke;
+text-align: right;
+}
+
+
+.nav-links:hover{
+    color:rgba(214, 209, 209, 0.705);
+
+}
+.fa-bars{
+  
+    color:rgba(12, 114, 182, 0.815);
+}
+.fa-times{
+    color:rgba(12, 114, 182, 0.815);
+}
+
+.menu-icon{
+ display: block;
+    position: absolute;
+    height: 80px;
+    width: 20px;
+    
+    top:0;
+    right:0;
+    transform: translate(-100%,60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
